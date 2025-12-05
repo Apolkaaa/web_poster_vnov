@@ -4,3 +4,9 @@
   font-style: normal;
   font-weight: normal;
 }
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope-Medium.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}

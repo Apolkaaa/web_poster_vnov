@@ -3,6 +3,8 @@ body {
   display: block;
   margin: 0 auto;
   font-family: "Manrope";
+  font-style: normal;
+  font-weight: normal;
   position: relative;
   overflow-x: hidden;
 }
