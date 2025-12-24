@@ -1,0 +1,360 @@
+@keyframes pink_circle_line_width {
+  0% {
+    width: calc(100% - 1.042vw);
+  }
+  100% {
+    width: 1.805vw;
+  }
+}
+@keyframes circle_math_2 {
+  0% {
+    transform: rotate(0deg) translateY(4.1666667vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(4.1666667vw) rotate(-360deg);
+  }
+}
+@keyframes circle_math_3 {
+  0% {
+    transform: rotate(0deg) translateY(4.1666667vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(4.1666667vw) rotate(-360deg);
+  }
+}
+@keyframes circle_math_4 {
+  0% {
+    transform: rotate(0deg) translateY(4.1666667vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(4.1666667vw) rotate(-360deg);
+  }
+}
+@keyframes circle_math_5_1 {
+  0% {
+    transform: rotate(0deg) translateY(15.278vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(15.278vw) rotate(-360deg);
+  }
+}
+@keyframes circle_math_5_2 {
+  0% {
+    transform: rotate(0deg) translateY(11vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(11vw) rotate(-360deg);
+  }
+}
+@keyframes circle_math_5_3 {
+  0% {
+    transform: rotate(0deg) translateY(6.75vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(6.75vw) rotate(-360deg);
+  }
+}
+@keyframes circle_math_5_4 {
+  0% {
+    transform: rotate(0deg) translateY(2.5vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(2.5vw) rotate(-360deg);
+  }
+}
+@keyframes circle_motion {
+  0% {
+    transform: translateX(0.2vw);
+  }
+  50% {
+    transform: translateX(-0.2vw);
+  }
+  100% {
+    transform: translateX(0.2vw);
+  }
+}
+@keyframes white_cursor_line_1 {
+  0% {
+    width: 30.1vw;
+  }
+  80% {
+    width: 9.65vw;
+  }
+  90% {
+    width: 9.65vw;
+  }
+  98% {
+    width: 30.1vw;
+  }
+  100% {
+    width: 30.1vw;
+  }
+}
+@keyframes purple_cursor_elem_1 {
+  0% {
+    width: 31.9vw;
+  }
+  80% {
+    width: 9.65vw;
+  }
+  90% {
+    width: 9.65vw;
+  }
+  98% {
+    width: 31.9vw;
+  }
+  100% {
+    width: 31.9vw;
+  }
+}
+@keyframes white_cursor_line_2 {
+  0% {
+    width: 30.1vw;
+  }
+  80% {
+    width: 5vw;
+  }
+  90% {
+    width: 5vw;
+  }
+  98% {
+    width: 30.1vw;
+  }
+  100% {
+    width: 30.1vw;
+  }
+}
+@keyframes purple_cursor_elem_2 {
+  0% {
+    width: 31.9vw;
+  }
+  80% {
+    width: 5vw;
+  }
+  90% {
+    width: 5vw;
+  }
+  98% {
+    width: 31.9vw;
+  }
+  100% {
+    width: 31.9vw;
+  }
+}
+@keyframes purple_cursor_line {
+  0% {
+    background-color: #312a53;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    background-color: #312a53;
+  }
+}
+@keyframes yellow_circle_motion {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes blue_circle_elem_1 {
+  0% {
+    transform: rotate(270deg);
+  }
+  57.89% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+@keyframes blue_circle_elem_2 {
+  0% {
+    transform: rotate(240deg);
+  }
+  57.89% {
+    transform: rotate(240deg);
+  }
+  100% {
+    transform: rotate(-120deg);
+  }
+}
+@keyframes blue_circle_elem_3 {
+  0% {
+    transform: rotate(210deg);
+  }
+  57.89% {
+    transform: rotate(210deg);
+  }
+  100% {
+    transform: rotate(-150deg);
+  }
+}
+@keyframes blue_circle_elem_4 {
+  0% {
+    transform: rotate(180deg);
+  }
+  57.89% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+@keyframes blue_circle_elem_5 {
+  0% {
+    transform: rotate(150deg);
+  }
+  57.89% {
+    transform: rotate(150deg);
+  }
+  100% {
+    transform: rotate(-210deg);
+  }
+}
+@keyframes blue_circle_elem_6 {
+  0% {
+    transform: rotate(120deg);
+  }
+  57.89% {
+    transform: rotate(120deg);
+  }
+  100% {
+    transform: rotate(-240deg);
+  }
+}
+@keyframes blue_circle_elem_7 {
+  0% {
+    transform: rotate(90deg);
+  }
+  57.89% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(-270deg);
+  }
+}
+@keyframes blue_circle_elem_8 {
+  0% {
+    transform: rotate(60deg);
+  }
+  57.89% {
+    transform: rotate(60deg);
+  }
+  100% {
+    transform: rotate(-300deg);
+  }
+}
+@keyframes blue_circle_elem_9 {
+  0% {
+    transform: rotate(30deg);
+  }
+  57.89% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(-330deg);
+  }
+}
+@keyframes blue_circle_elem_10 {
+  0% {
+    transform: rotate(0deg);
+  }
+  57.89% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes blue_circle_elem_11 {
+  0% {
+    transform: rotate(-30deg);
+  }
+  57.89% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(-390deg);
+  }
+}
+@keyframes blue_circle_elem_12 {
+  0% {
+    transform: rotate(-60deg);
+  }
+  57.89% {
+    transform: rotate(-60deg);
+  }
+  100% {
+    transform: rotate(-420deg);
+  }
+}
+@keyframes blue_line_dnk_motion {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 7.639vw;
+  }
+  100% {
+    height: 0;
+  }
+}
+@keyframes dnk_motion {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.3vw);
+  }
+}
+@keyframes circle_math_1_1 {
+  0% {
+    transform: rotate(0deg) translateY(4.1666667vw) rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg) translateY(4.1666667vw) rotate(-360deg);
+  }
+}
+@keyframes circle_math_1_2 {
+  0% {
+    transform: rotate(-90deg) translateY(4.1666667vw) rotate(-90deg);
+  }
+
+  100% {
+    transform: rotate(270deg) translateY(4.1666667vw) rotate(-450deg);
+  }
+}
+@keyframes pink_cicles_motion {
+  0% {
+    rotate: 0;
+  }
+  100% {
+    rotate: -390deg;
+  }
+}
+@keyframes circle_3d_motion {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: calc(2.54vw * 6);
+  }
+  100% {
+    width: 0%;
+  }
+}
