@@ -1,18 +1,183 @@
 @media (max-width: 414px) {
+  body {
+    overflow-x: hidden;
+  }
+  .yellow_circle {
+    width: 48.3vw;
+    height: 48.3vw;
+    outline-width: 0.5vw;
+    top: 140.4vw;
+    left: 48.3vw;
+  }
+  .yellow_circle img {
+    width: 3.6vw;
+    height: auto;
+  }
+  .blue_circle_line {
+    width: calc(100% - 1vw);
+  }
+  .pink_circle {
+    width: 48.3vw;
+    height: 48.3vw;
+    outline-width: 0.5vw;
+    top: 470vw;
+    left: 4.83vw;
+  }
+  .pink_circle img {
+    width: 3.6vw;
+    height: auto;
+  }
+  .pink_circle_line {
+    width: calc(100% - 1vw);
+  }
+  .section_pink_circle {
+    width: 48.3vw;
+    height: 48.3vw;
+    outline-width: 0.5vw;
+    top: 680vw;
+    left: 48.3vw;
+  }
+  .section_pink_circle img {
+    width: 3.6vw;
+    height: auto;
+  }
+  .pink_ellipse_6,
+  .pink_ellipse_5,
+  .pink_ellipse_4,
+  .pink_ellipse_3,
+  .pink_ellipse_2,
+  .pink_ellipse_1 {
+    width: 2.5vw;
+    outline-width: 0.5vw;
+  }
+  .section_1 {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 4.83vw;
+    margin-left: 0;
+    padding: 4.83vw;
+  }
+  .section_1 img {
+    width: 17.4vw;
+    height: auto;
+  }
+  .section_1 div {
+    width: auto;
+    gap: 4.83vw;
+    font-size: 3.86vw;
+    width: 304.84vw;
+    animation: text_1_motion 10s infinite linear;
+  }
+  .section_1 p:nth-of-type(1) {
+    width: 205.3vw;
+  }
+  .section_1 p:nth-of-type(2) {
+    width: 95vw;
+  }
   .section_2 {
     width: 100%;
-    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column;
+    display: flex;
   }
   .section_eye {
     width: 100%;
-    height: 100%;
+    height: 180vw;
+    background-size: cover;
+    background-position: center;
   }
   .section_2_all {
     width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
   }
-  .section_5_people,
-  .section_text_1,
-  .section_circle {
+  .section_5_people {
+    max-width: 100%;
     width: 100%;
+    height: 63.04vw;
+    justify-content: center;
+  }
+  .section_text_1 {
+    height: auto;
+    font-size: 4.83vw;
+    padding: 4.83vw;
+  }
+  .purple_cursor_elem_1 {
+    transform: scale(3);
+    margin-top: 18.3vw;
+  }
+  .section_circle {
+    height: 63.04vw;
+    transform: scale(3);
+  }
+  .section_line_with_3_animations {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .dnk {
+    width: 100%;
+    height: 63.04vw;
+    z-index: 1;
+  }
+  .circle_math {
+    width: 100%;
+    height: 63.04vw;
+    transform: scale(3);
+  }
+  .people_opposite {
+    width: 100%;
+    height: 63.04vw;
+    z-index: 1;
+  }
+  .section_with_bicycle {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  .bicycle {
+    width: 100%;
+    height: 180vw;
+    background-size: cover;
+    background-position: center;
+  }
+  .section_3_all {
+    width: 100%;
+  }
+  .immersion,
+  .rotation_circles {
+    width: 100%;
+    height: 63.04vw;
+  }
+  .section_text_2 {
+    height: auto;
+    font-size: 4.83vw;
+    padding: 4.83vw;
+  }
+  .purple_cursor_elem_2 {
+    transform: scale(3);
+    right: 0;
+    margin-top: -2.6vw;
+  }
+  .section_4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .flying_stars {
+    width: 100%;
+    height: 63.04vw;
+  }
+  .circle_3d {
+    width: 100%;
+    height: 63.04vw;
+  }
+  .footer {
+    font-size: 3.86vw;
+  }
+  .footer img {
+    width: 8.7vw;
+    height: auto;
   }
 }

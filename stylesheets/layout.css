@@ -24,6 +24,18 @@ body {
   color: white;
   overflow: hidden;
 }
+.section_1 div {
+  display: flex;
+  flex-direction: row;
+  width: 68.75vw;
+  justify-content: space-between;
+}
+.section_1 p:nth-of-type(1) {
+  width: 31.5vw;
+}
+.section_1 p:nth-of-type(2) {
+  width: 13.89vw;
+}
 .section_1 img {
   width: 4.97vw;
   height: 1.39vw;
@@ -57,6 +69,7 @@ body {
   position: relative;
   top: 20.5vw;
   left: 1.38vw;
+  z-index: 2;
   animation: yellow_circle_motion calc(2.85s * 4) linear infinite;
 }
 .pink_circle_elem {
@@ -234,6 +247,7 @@ body {
   position: relative;
   top: 7.777778vw;
   left: 55.1388889vw;
+  z-index: 2;
   animation: yellow_circle_motion calc(2.85s * 4) linear infinite;
 }
 .blue_circle_elem {
@@ -310,11 +324,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: end;
+  z-index: 1;
 }
 .section_text_1 {
   padding: 1.389vw;
   font-size: 1.667vw;
   line-height: 110%;
+  background-color: white;
+  z-index: 1;
 }
 .purple_cursor_elem_1 {
   display: flex;
@@ -699,7 +716,7 @@ body {
   display: flex;
   flex-direction: row;
 }
-.fling_stars {
+.flying_stars {
   background-color: #f0e7ff;
   width: 66.67vw;
   height: 19.931vw;
@@ -719,50 +736,44 @@ body {
 .circle_3d_1 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: calc(2.54vw * 6);
-  /* animation: circle_3d_motion 0s infinite normal;
-  animation-duration: calc(0.7s * 6); */
+  max-width: 14.7vw;
+  animation-name: circle_3d_motion 6s infinite linear;
+  animation-delay: 6s;
 }
 .circle_3d_2 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: calc(2.54vw * 6);
-  animation: circle_3d_motion 0.7s infinite normal;
-  animation-duration: calc(0.7s * 5);
+  max-width: 14.7vw;
+  animation-name: circle_3d_motion 6s infinite linear;
+  animation-delay: 5s;
 }
 .circle_3d_3 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: calc(2.54vw * 6);
-  animation: circle_3d_motion 1.4s infinite normal;
-  animation-duration: calc(0.7s * 4);
+  max-width: 14.7vw;
+  animation-name: circle_3d_motion 6s infinite linear;
+  animation-delay: 4s;
 }
 .circle_3d_4 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: calc(2.54vw * 6);
-  animation: circle_3d_motion 2.1s infinite normal;
-  animation-duration: calc(0.7s * 3);
+  max-width: 14.7vw;
+  animation-name: circle_3d_motion 6s infinite linear;
+  animation-delay: 3s;
 }
 .circle_3d_5 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: calc(2.54vw * 6);
-  animation: circle_3d_motion 2.8s infinite normal;
-  animation-duration: calc(0.7s * 2);
+  max-width: 14.7vw;
+  animation-name: circle_3d_motion 6s infinite linear;
+  animation-delay: 2s;
 }
 .circle_3d_6 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: calc(2.54vw * 6);
-  animation: circle_3d_motion 3.5s infinite normal;
-  animation-duration: calc(0.7s * 1);
-}
-.circle_3d_7 {
-  transform-origin: left center;
-  margin-left: 16.66vw;
-  max-width: calc(2.54vw * 6);
-  animation: circle_3d_motion 4.2s infinite normal;
+  max-width: 14.7vw;
+  animation-name: circle_3d_motion 6s infinite linear;
+  animation-delay: 1s;
 }
 .circle_3d_-1 {
   transform-origin: right center;
@@ -795,11 +806,6 @@ body {
   margin-left: auto;
   margin-right: 16.66vw;
 }
-.circle_3d_-7 {
-  transform-origin: right center;
-  margin-left: auto;
-  margin-right: 16.66vw;
-}
 .footer {
   background-color: #312a53;
   display: flex;
@@ -808,6 +814,11 @@ body {
   padding: 1.39vw;
   align-items: center;
   color: white;
+  font-size: 1.11vw;
+}
+.footer img {
+  width: 2.456vw;
+  height: auto;
 }
 .section_circle {
   display: flex;
