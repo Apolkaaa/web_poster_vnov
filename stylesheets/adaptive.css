@@ -20,7 +20,7 @@
     width: 48.3vw;
     height: 48.3vw;
     outline-width: 0.5vw;
-    top: 470vw;
+    top: 460vw;
     left: 4.83vw;
   }
   .pink_circle img {
@@ -34,7 +34,7 @@
     width: 48.3vw;
     height: 48.3vw;
     outline-width: 0.5vw;
-    top: 680vw;
+    top: 670vw;
     left: 48.3vw;
   }
   .section_pink_circle img {
@@ -52,27 +52,40 @@
   }
   .section_1 {
     display: flex;
-    flex-direction: row-reverse;
-    font-size: 4.83vw;
-    margin-left: 0;
-    padding: 4.83vw;
+    flex-direction: row;
+    align-items: center;
+    font-size: 4.5893719807vw;
+    padding: 4.8vw;
+    background-color: #312a53;
+    color: white;
+    position: relative;
+    height: 14vw;
   }
   .section_1 img {
-    width: 17.4vw;
-    height: auto;
+    width: 19.3vw;
+    height: 5.3vw;
+    position: absolute;
+    left: 1.39vw;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: #312a53;
+    outline: 4.8vw solid #312a53;
   }
   .section_1 div {
-    width: auto;
-    gap: 4.83vw;
-    font-size: 3.86vw;
-    width: 304.84vw;
-    animation: text_1_motion 10s infinite linear;
+    display: flex;
+    flex-direction: row;
+    gap: 50vw;
+    animation: text_1_motion 16s infinite linear;
+    white-space: nowrap;
+    padding-left: 25vw;
+    width: max-content;
   }
   .section_1 p:nth-of-type(1) {
     width: 205.3vw;
   }
   .section_1 p:nth-of-type(2) {
-    width: 95vw;
+    width: 94.93vw;
   }
   .section_2 {
     width: 100%;
@@ -91,12 +104,34 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
   }
   .section_5_people {
     max-width: 100%;
     width: 100%;
     height: 63.04vw;
     justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+  }
+  .section_5_people img {
+    transform: scale(5);
+  }
+  .section_5_people img:nth-of-type(1) {
+    margin-left: 4vw;
+  }
+  .section_5_people img:nth-of-type(2) {
+    margin-left: 10vw;
+  }
+  .section_5_people img:nth-of-type(3) {
+    margin-left: 14vw;
+  }
+  .section_5_people img:nth-of-type(4) {
+    margin-left: 12vw;
+  }
+  .section_5_people img:nth-of-type(5) {
+    margin-left: 12vw;
   }
   .section_text_1 {
     height: auto;
@@ -109,27 +144,49 @@
   }
   .section_circle {
     height: 63.04vw;
+    transform: scale(2);
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
     transform: scale(3);
   }
   .section_line_with_3_animations {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
+    overflow: hidden;
   }
   .dnk {
     width: 100%;
-    height: 63.04vw;
-    z-index: 1;
+    height: 106vw;
+    transform: scale(3);
+  }
+  .dnk_div_big {
+    margin-top: 16vw;
   }
   .circle_math {
     width: 100%;
-    height: 63.04vw;
+    height: 45vw;
     transform: scale(3);
+    position: relative;
+    overflow: hidden;
+  }
+  .circle_math_1_1,
+  .circle_math_1_2 {
+    margin-top: 26vw;
   }
   .people_opposite {
     width: 100%;
-    height: 63.04vw;
+    height: 30vw;
     z-index: 1;
+    overflow: hidden;
+    transform: scale(3);
+  }
+  .p_opposite_1 {
+    margin-top: 12vw;
+  }
+  .p_opposite_2 {
+    margin-top: 11.5vw;
   }
   .section_with_bicycle {
     display: flex;
@@ -144,11 +201,18 @@
   }
   .section_3_all {
     width: 100%;
+    overflow: hidden;
   }
   .immersion,
   .rotation_circles {
     width: 100%;
     height: 63.04vw;
+  }
+  .immersion {
+    transform: scale(3);
+    margin-top: 25vw;
+    width: 100%;
+    height: 32vw;
   }
   .section_text_2 {
     height: auto;

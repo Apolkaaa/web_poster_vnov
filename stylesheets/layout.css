@@ -27,7 +27,7 @@ body {
 .section_1 div {
   display: flex;
   flex-direction: row;
-  width: 68.75vw;
+  width: 327vw;
   justify-content: space-between;
 }
 .section_1 p:nth-of-type(1) {
@@ -59,6 +59,28 @@ body {
 .section_5_people {
   overflow: hidden;
   max-width: 33.3vw;
+}
+.section_5_people img:nth-of-type(1) {
+  height: 18vw;
+  animation: img_1 4s infinite linear alternate;
+}
+.section_5_people img:nth-of-type(2) {
+  height: 15vw;
+  margin-left: -0.8vw;
+  animation: img_2 4s infinite linear alternate;
+}
+.section_5_people img:nth-of-type(3) {
+  height: 14.5vw;
+  margin-left: 1vw;
+  animation: img_3 4s infinite linear alternate;
+}
+.section_5_people img:nth-of-type(4) {
+  height: 12vw;
+  margin-left: -0.8vw;
+  animation: img_4 4s infinite linear alternate;
+}
+.section_5_people img:nth-of-type(5) {
+  height: 10vw;
 }
 .pink_circle {
   width: 13.8vw;
@@ -510,6 +532,7 @@ body {
   height: 46.25vw;
   width: 66.67vw;
   background-size: cover;
+  z-index: 1;
 }
 .circle_math {
   width: 33.3%;
@@ -536,7 +559,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* animation: circle_math_1_1 4s infinite linear; */
 }
 .circle_math_1_2 {
   border: 0.14vw solid #312a53;
@@ -553,7 +575,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* animation: circle_math_1_2 4s infinite linear; */
 }
 .circle_math_2 {
   border: 0.14vw solid #312a53;
@@ -636,6 +657,22 @@ body {
   width: 33.3%;
   height: 19.931vw;
   background-color: #312a53;
+  display: flex;
+  flex-direction: row;
+  gap: 1.38vw;
+}
+.people_opposite div {
+  animation: p_opposite_2 3s infinite linear alternate;
+  margin-left: calc(50% - 13.8vw);
+}
+.p_opposite_1 {
+  width: 13.2vw;
+  margin-top: 2vw;
+}
+.p_opposite_2 {
+  width: 13.8vw;
+  margin-top: 2.08vw;
+  height: 19.3vw;
 }
 .section_with_bicycle {
   width: 100vw;
@@ -665,25 +702,153 @@ body {
   flex-direction: row;
   justify-content: center;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
-.immersion img {
+.immersion img:nth-of-type(2) {
   width: 13.06vw;
   height: 12.36vw;
-  left: calc(50% - 6.53vw);
+  left: 50%;
+  transform: translateX(-50%);
   margin-top: -0.7vw;
-}
-.immersion div {
   position: absolute;
-  border: 0.14vw solid #f0e7ff;
-  width: 14.31vw;
-  height: 14.31vw;
+  z-index: 10;
+}
+.immersion_circle_1 {
+  width: 42.7902736977vw;
+  height: 42.7902736977vw;
   border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: -11.375vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_1 2s infinite linear alternate;
+}
+.immersion_circle_2 {
+  width: 40.2228572758vw;
+  height: 40.2228572758vw;
+  border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: 1.04166666667vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_2 2s infinite linear alternate;
+}
+.immersion_circle_3 {
+  width: 37.00502869375vw;
+  height: 37.00502869375vw;
+  border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: 1.04166666667vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_3 2s infinite linear alternate;
+}
+.immersion_circle_4 {
+  width: 33.3045258244vw;
+  height: 33.3045258244vw;
+  border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: 1.04166666667vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_4 2s infinite linear alternate;
+}
+.immersion_circle_5 {
+  width: 29.3079827255vw;
+  height: 29.3079827255vw;
+  border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: 1.04166666667vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_5 2s infinite linear alternate;
+}
+.immersion_circle_6 {
+  width: 25.2048651439vw;
+  height: 25.2048651439vw;
+  border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: 1.04166666667vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_6 2s infinite linear alternate;
+}
+.immersion_circle_7 {
+  width: 21.1720867209vw;
+  height: 21.1720867209vw;
+  border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: 1.04166666667vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_7 2s infinite linear alternate;
+}
+.immersion_circle_8 {
+  width: 17.3611111111vw;
+  height: 17.3611111111vw;
+  border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: 1.04166666667vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_8 2s infinite linear alternate;
+}
+.immersion_circle_9 {
+  width: 13.8888888889vw;
+  height: 13.8888888889vw;
+  border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: 1.04166666667vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_9 2s infinite linear alternate;
+}
+.immersion_circle_small {
+  width: 8.5vw;
+  height: 8.5vw;
+  border-radius: 100%;
+  border: 0.1388888889vw solid #f0e7ff;
+  margin-top: 1.04166666667vw;
+  transform-origin: center top;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: immersion_circle_motion_10 2s infinite linear alternate;
+}
+.immersion img:nth-of-type(1) {
+  width: 6vw;
+  height: 15vw;
+  position: absolute;
+  margin-top: 7.6388888889vw;
+  margin-left: -11vw;
+  z-index: 2;
 }
 .section_text_2 {
   width: auto;
   padding: 1.389vw;
   font-size: 1.667vw;
   line-height: 110%;
+  background-color: white;
+  z-index: 1;
 }
 .purple_cursor_elem_2 {
   display: flex;
@@ -711,6 +876,107 @@ body {
   width: 33.333vw;
   height: 19.931vw;
   background-color: #ffffed;
+  overflow: hidden;
+}
+.rotation_circles img {
+  position: absolute;
+}
+.blue_circle_orbit {
+  position: absolute;
+  background-color: #312a53;
+  filter: blur(0.15vw);
+  border-radius: 100%;
+  width: 1.2347222222vw;
+  height: 1.2347222222vw;
+  margin-top: 9.5833333333vw;
+  margin-left: 11.9444444444vw;
+}
+.rotation_circles img:nth-of-type(1) {
+  margin-top: 5.7vw;
+  margin-left: 8.05vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  width: 6.94vw;
+  height: 7.3vw;
+}
+.rotation_circles img:nth-of-type(2) {
+  margin-top: 3.9vw;
+  margin-left: 6.35vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -1s;
+  width: 10.4vw;
+  height: 10.8vw;
+}
+.rotation_circles img:nth-of-type(3) {
+  margin-top: 2.18vw;
+  margin-left: 4.625vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -2s;
+  width: 13.89vw;
+  height: 14.3vw;
+}
+.rotation_circles img:nth-of-type(4) {
+  margin-top: 0.46875vw;
+  margin-left: 2.9340277778vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -3s;
+  width: 17.36vw;
+  height: 17.85vw;
+}
+.rotation_circles img:nth-of-type(5) {
+  margin-top: -1.24vw;
+  margin-left: 1.1041666667vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -4s;
+  width: 20.83vw;
+  height: 21.25vw;
+}
+.rotation_circles img:nth-of-type(6) {
+  margin-top: -2.9826388889vw;
+  margin-left: -0.625vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -5s;
+  width: 24.3vw;
+  height: 24.7vw;
+}
+.rotation_circles img:nth-of-type(7) {
+  margin-top: -4.7368055556vw;
+  margin-left: -2.3756944444vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -6s;
+  width: 27.78vw;
+  height: 28.2vw;
+}
+.rotation_circles img:nth-of-type(8) {
+  margin-top: -6.4833333333vw;
+  margin-left: -4.05277777778vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -7s;
+  width: 31.25vw;
+  height: 31.67vw;
+}
+.rotation_circles img:nth-of-type(9) {
+  margin-top: -8.2298611111vw;
+  margin-left: -5.7979166667vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -8s;
+  width: 34.7vw;
+  height: 35.1vw;
+}
+.rotation_circles img:nth-of-type(10) {
+  margin-top: -9.9541666667vw;
+  margin-left: -7.5458333333vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -9s;
+  width: 38.2vw;
+  height: 38.6vw;
+}
+.rotation_circles img:nth-of-type(11) {
+  margin-top: -11.6666666667vw;
+  margin-left: -9.3055555556vw;
+  animation: yellow_circle_motion 6s linear infinite;
+  animation-delay: -10s;
+  width: 41.67vw;
+  height: 42.1vw;
 }
 .section_4 {
   display: flex;
@@ -718,8 +984,23 @@ body {
 }
 .flying_stars {
   background-color: #f0e7ff;
-  width: 66.67vw;
+  width: 66.6vw;
   height: 19.931vw;
+  z-index: 1;
+  overflow: hidden;
+}
+.flying_stars div {
+  width: 66.6vw;
+  height: 20.931vw;
+  animation: flying_stars_motion 6s infinite linear;
+}
+#p_yellow {
+  position: absolute;
+  height: 18.89vw;
+  width: 15.125vw;
+  z-index: 1;
+  margin-left: 22.7vw;
+  margin-top: 1.38vw;
 }
 .circle_3d {
   background-color: #ffffed;
@@ -736,44 +1017,84 @@ body {
 .circle_3d_1 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: 14.7vw;
-  animation-name: circle_3d_motion 6s infinite linear;
-  animation-delay: 6s;
+  width: 14.7vw;
+  animation: circle_3d_motion 6s infinite linear;
 }
 .circle_3d_2 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: 14.7vw;
-  animation-name: circle_3d_motion 6s infinite linear;
-  animation-delay: 5s;
+  width: 14.7vw;
+  animation: circle_3d_motion 6s infinite linear;
+  animation-delay: 1s;
 }
 .circle_3d_3 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: 14.7vw;
-  animation-name: circle_3d_motion 6s infinite linear;
-  animation-delay: 4s;
+  width: 14.7vw;
+  animation: circle_3d_motion 6s infinite linear;
+  animation-delay: 2s;
 }
 .circle_3d_4 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: 14.7vw;
-  animation-name: circle_3d_motion 6s infinite linear;
+  width: 14.7vw;
+  animation: circle_3d_motion_alternate 6s infinite linear;
   animation-delay: 3s;
 }
 .circle_3d_5 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: 14.7vw;
-  animation-name: circle_3d_motion 6s infinite linear;
-  animation-delay: 2s;
+  width: 14.7vw;
+  animation: circle_3d_motion_alternate 6s infinite linear;
+  animation-delay: 4s;
 }
 .circle_3d_6 {
   transform-origin: left center;
   margin-left: 16.66vw;
-  max-width: 14.7vw;
-  animation-name: circle_3d_motion 6s infinite linear;
+  width: 14.7vw;
+  animation: circle_3d_motion_alternate 6s infinite linear;
+  animation-delay: 5s;
+}
+.circle_3d_7 {
+  transform-origin: left center;
+  margin-left: 16.66vw;
+  width: 14.7vw;
+  animation: circle_3d_motion_alternate 6s infinite linear;
+}
+.circle_3d_8 {
+  transform-origin: left center;
+  margin-left: 16.66vw;
+  width: 14.7vw;
+  animation: circle_3d_motion_alternate 6s infinite linear;
   animation-delay: 1s;
+}
+.circle_3d_9 {
+  transform-origin: left center;
+  margin-left: 16.66vw;
+  width: 14.7vw;
+  animation: circle_3d_motion_alternate 6s infinite linear;
+  animation-delay: 2s;
+}
+.circle_3d_10 {
+  transform-origin: left center;
+  margin-left: 16.66vw;
+  width: 14.7vw;
+  animation: circle_3d_motion_alternate 6s infinite linear;
+  animation-delay: 3s;
+}
+.circle_3d_11 {
+  transform-origin: left center;
+  margin-left: 16.66vw;
+  width: 14.7vw;
+  animation: circle_3d_motion_alternate 6s infinite linear;
+  animation-delay: 4s;
+}
+.circle_3d_12 {
+  transform-origin: left center;
+  margin-left: 16.66vw;
+  width: 14.7vw;
+  animation: circle_3d_motion_alternate 6s infinite linear;
+  animation-delay: 5s;
 }
 .circle_3d_-1 {
   transform-origin: right center;
@@ -815,6 +1136,7 @@ body {
   align-items: center;
   color: white;
   font-size: 1.11vw;
+  z-index: 1;
 }
 .footer img {
   width: 2.456vw;

@@ -3,7 +3,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-304.84vw);
+    transform: translateX(-100%);
   }
 }
 @keyframes pink_circle_line_width {
@@ -357,12 +357,186 @@
 }
 @keyframes circle_3d_motion {
   0% {
-    width: 0%;
+    transform: scaleX(1);
   }
   50% {
-    width: calc(2.54vw * 6);
+    transform: scaleX(-1);
+  }
+}
+@keyframes circle_3d_motion_alternate {
+  0% {
+    transform: scaleX(-1);
+  }
+  50% {
+    transform: scaleX(1);
   }
   100% {
-    width: 0%;
+    transform: scaleX(-1);
+  }
+}
+@keyframes img_1 {
+  0% {
+    opacity: 0%;
+  }
+  15% {
+    opacity: 0%;
+  }
+  20% {
+    opacity: 100%;
+  }
+}
+@keyframes img_2 {
+  0% {
+    opacity: 0%;
+  }
+  35% {
+    opacity: 0%;
+  }
+  40% {
+    opacity: 100%;
+  }
+}
+@keyframes img_3 {
+  0% {
+    opacity: 0%;
+  }
+  55% {
+    opacity: 0%;
+  }
+  60% {
+    opacity: 100%;
+  }
+}
+@keyframes img_4 {
+  0% {
+    opacity: 0%;
+  }
+  75% {
+    opacity: 0%;
+  }
+  80% {
+    opacity: 100%;
+  }
+}
+@keyframes p_opposite_2 {
+  0% {
+    filter: blur(0);
+  }
+  30% {
+    filter: blur(0);
+  }
+  100% {
+    filter: blur(2vw);
+  }
+}
+@keyframes flying_stars_motion {
+  0% {
+    transform: translateX(0);
+  }
+  0% {
+    transform: translateX(-66.67vw);
+  }
+}
+
+@keyframes immersion_circle_motion_1 {
+  0% {
+    width: 42.7902736977vw;
+    height: 42.7902736977vw;
+  }
+  100% {
+    width: 45vw;
+    height: 45vw;
+  }
+}
+@keyframes immersion_circle_motion_2 {
+  0% {
+    width: 40.2228572758vw;
+    height: 40.2228572758vw;
+  }
+  100% {
+    width: 42.7902736977vw;
+    height: 42.7902736977vw;
+  }
+}
+@keyframes immersion_circle_motion_3 {
+  0% {
+    width: 37.00502869375vw;
+    height: 37.00502869375vw;
+  }
+  100% {
+    width: 40.2228572758vw;
+    height: 40.2228572758vw;
+  }
+}
+@keyframes immersion_circle_motion_4 {
+  0% {
+    width: 33.3045258244vw;
+    height: 33.3045258244vw;
+  }
+  100% {
+    width: 37.00502869375vw;
+    height: 37.00502869375vw;
+  }
+}
+@keyframes immersion_circle_motion_5 {
+  0% {
+    width: 29.3079827255vw;
+    height: 29.3079827255vw;
+  }
+  100% {
+    width: 33.3045258244vw;
+    height: 33.3045258244vw;
+  }
+}
+@keyframes immersion_circle_motion_6 {
+  0% {
+    width: 25.2048651439vw;
+    height: 25.2048651439vw;
+  }
+  100% {
+    width: 29.3079827255vw;
+    height: 29.3079827255vw;
+  }
+}
+@keyframes immersion_circle_motion_7 {
+  0% {
+    width: 21.1720867209vw;
+    height: 21.1720867209vw;
+  }
+  100% {
+    width: 25.2048651439vw;
+    height: 25.2048651439vw;
+  }
+}
+@keyframes immersion_circle_motion_8 {
+  0% {
+    width: 17.3611111111vw;
+    height: 17.3611111111vw;
+  }
+  100% {
+    width: 21.1720867209vw;
+    height: 21.1720867209vw;
+  }
+}
+@keyframes immersion_circle_motion_9 {
+  0% {
+    width: 13.8888888889vw;
+    height: 13.8888888889vw;
+  }
+  100% {
+    width: 17.3611111111vw;
+    height: 17.3611111111vw;
+  }
+}
+@keyframes immersion_circle_motion_10 {
+  0% {
+    width: 8.5vw;
+    height: 8.5vw;
+    opacity: 0;
+  }
+  100% {
+    width: 13.8888888889vw;
+    height: 13.8888888889vw;
+    opacity: 1;
   }
 }
